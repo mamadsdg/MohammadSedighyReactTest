@@ -1,0 +1,131 @@
+{
+  "mockData": {
+    "status": "success",
+    "message": null,
+    "data": {
+      "inputs": [
+        { "id": 0, "slug": "btc", "tags": ["رمزارز"] },
+        { "id": 1, "slug": "eth", "tags": ["رمزارز"] },
+        { "id": 2, "slug": "usdt", "tags": ["استیبل کوین"] },
+        { "id": 3, "slug": "bnb", "tags": ["رمزارز"] },
+        { "id": 4, "slug": "xrp", "tags": ["رمزارز"] },
+        { "id": 5, "slug": "ada", "tags": ["دیفای"] },
+        { "id": 6, "slug": "sol", "tags": ["دیفای"] },
+        { "id": 7, "slug": "usdc", "tags": ["استیبل کوین"] },
+        { "id": 8, "slug": "trx", "tags": ["رمزارز"] },
+        { "id": 9, "slug": "dot", "tags": ["دیفای"] },
+        { "id": 10, "slug": "bch", "tags": ["رمزارز"] },
+        { "id": 11, "slug": "ltc", "tags": ["رمزارز"] },
+        { "id": 12, "slug": "xlm", "tags": ["رمزارز"] },
+        { "id": 13, "slug": "shib", "tags": ["میم کوین"] },
+        { "id": 14, "slug": "vet", "tags": ["رمزارز"] }
+      ],
+      "outputs": [
+        { "id": 2, "slug": "btc", "tags": ["رمزارز"] },
+        { "id": 3, "slug": "eth", "tags": ["رمزارز"] },
+        { "id": 4, "slug": "usdt", "tags": ["استیبل کوین"] }
+      ],
+      "products": [
+        {
+          "inputId": 0,
+          "outputs": [
+            { "id": 2 },
+            { "id": 3 },
+            { "id": 4 }
+          ]
+        },
+        {
+          "inputId": 1,
+          "outputs": [
+            { "id": 2 },
+            { "id": 3 }
+          ]
+        },
+        {
+          "inputId": 2,
+          "outputs": [
+            { "id": 2 },
+            { "id": 4 }
+          ]
+        }
+      ]
+    }
+  },
+  "currencyMapping": {
+    "btc": {
+      "name": "بیت‌کوین",
+      "code": "BTC / Bitcoin",
+      "icon": "https://cryptologos.cc/logos/bitcoin-btc-logo.png"
+    },
+    "eth": {
+      "name": "اتریوم",
+      "code": "ETH / Ethereum",
+      "icon": "https://cryptologos.cc/logos/ethereum-eth-logo.png"
+    },
+    "usdt": {
+      "name": "تتر",
+      "code": "USDT / Tether",
+      "icon": "https://cryptologos.cc/logos/tether-usdt-logo.png"
+    },
+    "bnb": {
+      "name": "بایننس کوین",
+      "code": "BNB / Binance Coin",
+      "icon": "https://cryptologos.cc/logos/bnb-bnb-logo.png"
+    },
+    "xrp": {
+      "name": "ریپل",
+      "code": "XRP / XRP",
+      "icon": "https://cryptologos.cc/logos/xrp-xrp-logo.png"
+    },
+    "ada": {
+      "name": "کاردانو",
+      "code": "ADA / Cardano",
+      "icon": "https://cryptologos.cc/logos/cardano-ada-logo.png"
+    },
+    "sol": {
+      "name": "سولانا",
+      "code": "SOL / Solana",
+      "icon": "https://cryptologos.cc/logos/solana-sol-logo.png"
+    },
+    "usdc": {
+      "name": "یو اس دی کوین",
+      "code": "USDC / USD Coin",
+      "icon": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png"
+    },
+    "trx": {
+      "name": "ترون",
+      "code": "TRX / TRON",
+      "icon": "https://cryptologos.cc/logos/tron-trx-logo.png"
+    },
+    "dot": {
+      "name": "پولکادات",
+      "code": "DOT / Polkadot",
+      "icon": "https://cryptologos.cc/logos/polkadot-new-dot-logo.png"
+    },
+    "bch": {
+      "name": "بیتکوین کش",
+      "code": "BCH / Bitcoin Cash",
+      "icon": "https://cryptologos.cc/logos/bitcoin-cash-bch-logo.png"
+    },
+    "ltc": {
+      "name": "لایت‌کوین",
+      "code": "LTC / Litecoin",
+      "icon": "https://cryptologos.cc/logos/litecoin-ltc-logo.png"
+    },
+    "xlm": {
+      "name": "استلار",
+      "code": "XLM / Stellar",
+      "icon": "https://cryptologos.cc/logos/stellar-xlm-logo.png"
+    },
+    "shib": {
+      "name": "شیبا اینو",
+      "code": "SHIB / SHIBA INU",
+      "icon": "https://cryptologos.cc/logos/shiba-inu-shib-logo.png"
+    },
+    "vet": {
+      "name": "وی‌چین",
+      "code": "VET / VeChain",
+      "icon": "https://cryptologos.cc/logos/vechain-vet-logo.png"
+    }
+  }
+}
