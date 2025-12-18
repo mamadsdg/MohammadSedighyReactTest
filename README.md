@@ -1,7 +1,9 @@
 # مستندات مربوط به پروژه تست محمد صدیقی
 # Documentation of Mohammad Sedighy's test project
 
-### This project contains only one page that I created only one page as "main.ts" in pages directory.
+### Project Structure
+- Single page: main.ts in pages directory
+
 ### I will explain structure of my folders:
 
 ## api:
@@ -30,7 +32,7 @@ export const useCrypto = () => {
 
 ## assets:
 
-In this folder has some folders and I will explain them:
+This folder contains several subfolders:
 - Fonts: It contains one font as woff2 format for better styling. 
 - Imgs: It contains some images that I imported from site and Figma.
 - Styles: It contains some CSS files that I separated them based on its content. For example, in font.css I used font face that importing my font to project. In tailwind.css, I configured my tailwind properties and imported tailwind CSS. In vars.css, I added my CSS identifiers.
